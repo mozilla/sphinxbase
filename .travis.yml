@@ -4,3 +4,4 @@ language: c
 
 install: 
   - sudo apt-get install swig
+  - sudo apt-get install automake
