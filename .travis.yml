@@ -3,5 +3,5 @@ sudo: true
 language: c
 
 install: 
-  - ./autogen.sh
   - sudo apt-get install swig
+  - ./autogen.sh
