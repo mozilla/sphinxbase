@@ -5,3 +5,6 @@ language: c
 install: 
   - sudo apt-get install swig
   - ./autogen.sh
+  - ./configure
+  - make
+  - sudo make install
